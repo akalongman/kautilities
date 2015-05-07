@@ -1,0 +1,43 @@
+{
+    "name": "Longman/Kautilities",
+    "type": "library",
+    "description": "KA Utilities",
+    "keywords": ["ka", "georgia", "converter", "string", "utilities", "translit"],
+    "license": "MIT",
+    "homepage": "https://github.com/akalongman/kautilities",
+    "support": {
+        "issues": "https://github.com/akalongman/kautilities/issues",
+        "source": "https://github.com/akalongman/kautilities"
+    },
+    "authors": [
+        {
+            "name": "Avtandil Kikabidze aka LONGMAN",
+            "email": "akalongman@gmail.com",
+            "homepage": "http://longman.ge",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Longman\\Kautilities\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "phpspec/phpspec": "~2.1"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.1-dev"
+        }
+    }
+}
