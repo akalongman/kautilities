@@ -20,7 +20,7 @@ composer require longman/kautilities
 ## Usage
 
 ```php
-use namespace longman\\kautilities\\Converter
+use namespace longman\kautilities\Converter
 
 echo Converter::kaToLat('ა ბ გ დ');    // output: a b g d
 
