@@ -1,6 +1,6 @@
 # kautilities
 
-PHP class to convert KA letters to LAT and back
+PHP class for convert KA letters to LAT and back
 ## Installation
 
 Install this package through [Composer](https://getcomposer.org/). Edit your project's `composer.json` file to require `longman/kautilities`.
