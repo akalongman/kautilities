@@ -1,6 +1,6 @@
 # kautilities
 
-PHP class to get Skype user's online status
+PHP class to convert KA letters to LAT and back
 ## Installation
 
 Install this package through [Composer](https://getcomposer.org/). Edit your project's `composer.json` file to require `longman/kautilities`.
