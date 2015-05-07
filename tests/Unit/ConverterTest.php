@@ -24,7 +24,7 @@ class ConverterTest extends TestCase {
 
     /**
      * @test
-     * @covers Converter::kaToLat
+     * @cover Converter::kaToLat
      * @expectedException \InvalidArgumentException
      */
     public function kaToLatThrowsException() {
@@ -35,7 +35,7 @@ class ConverterTest extends TestCase {
 
     /**
      * @test
-     * @covers Converter::kaToLat
+     * @cover Converter::kaToLat
      */
 	public function kaToLat() {
         $result = Converter::kaToLat('აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ');
@@ -44,7 +44,7 @@ class ConverterTest extends TestCase {
 
     /**
      * @test
-     * @covers Converter::latToKa
+     * @cover Converter::latToKa
      * @expectedException \InvalidArgumentException
      */
     public function latToKaThrowsException() {
@@ -55,7 +55,7 @@ class ConverterTest extends TestCase {
 
     /**
      * @test
-     * @covers Converter::latToKa
+     * @cover Converter::latToKa
      */
     public function latToKa() {
         $result = Converter::latToKa('abgdevzTiklmnopJrstufqRySCcZwWxjh');
