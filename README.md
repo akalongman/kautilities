@@ -1,6 +1,8 @@
 # Kautilities
 
 [![Join the chat at https://gitter.im/akalongman/kautilities](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/akalongman/kautilities?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+
 [![Latest Stable Version](https://img.shields.io/packagist/v/Longman/Kautilities.svg)](https://packagist.org/packages/longman/kautilities)
 [![Total Downloads](https://img.shields.io/packagist/dt/Longman/Kautilities.svg)](https://packagist.org/packages/longman/kautilities)
 [![Downloads Month](https://img.shields.io/packagist/dm/Longman/Kautilities.svg)](https://packagist.org/packages/longman/kautilities)
