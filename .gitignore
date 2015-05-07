@@ -1,5 +1,5 @@
 vendor/
 composer.phar
 .phpintel
-.idea/
+.idea
 .DS_Store
