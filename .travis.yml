@@ -1,8 +1,6 @@
 language: php
 
 php:
-    - 5.0
-    - 5.1
     - 5.2
     - 5.3
     - 5.4
@@ -11,9 +9,13 @@ php:
     - 7.0
     - hhvm
 
-before_script:
+sudo: false
+
+before_install:
   - composer self-update
-  - composer install --prefer-source --no-interaction --dev
+
+install:
+  - travis_retry composer install --no-interaction --prefer-source
 
 script:
   - phpunit

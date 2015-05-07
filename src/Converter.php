@@ -18,27 +18,37 @@ namespace Longman\Kautilities;
  * @license    http://opensource.org/licenses/mit-license.php  The MIT License (MIT)
  * @link       http://www.github.com/akalongman/php-kautilities
  */
-abstract class Converter {
+abstract class Converter
+{
     /**
      * KA letters
      *
      * @var array
      */
-    protected static $_letters_ka = array('ა', 'ბ', 'გ', 'დ', 'ე', 'ვ', 'ზ', 'თ', 'ი', 'კ', 'ლ', 'მ', 'ნ', 'ო', 'პ', 'ჟ', 'რ', 'ს', 'ტ', 'უ', 'ფ', 'ქ', 'ღ', 'ყ', 'შ', 'ჩ', 'ც', 'ძ', 'წ', 'ჭ', 'ხ', 'ჯ', 'ჰ');
+    protected static $_letters_ka = array(
+        'ა', 'ბ', 'გ', 'დ', 'ე', 'ვ', 'ზ', 'თ', 'ი', 'კ', 'ლ', 'მ', 'ნ',
+        'ო', 'პ', 'ჟ', 'რ', 'ს', 'ტ', 'უ', 'ფ', 'ქ', 'ღ', 'ყ', 'შ', 'ჩ',
+        'ც', 'ძ', 'წ', 'ჭ', 'ხ', 'ჯ', 'ჰ');
 
     /**
      * LAT letters
      *
      * @var array
      */
-    protected static $_letters_lat = array('a', 'b', 'g', 'd', 'e', 'v', 'z', 'T', 'i', 'k', 'l', 'm', 'n', 'o', 'p', 'J', 'r', 's', 't', 'u', 'f', 'q', 'R', 'y', 'S', 'C', 'c', 'Z', 'w', 'W', 'x','j', 'h');
+    protected static $_letters_lat = array(
+        'a', 'b', 'g', 'd', 'e', 'v', 'z', 'T', 'i', 'k', 'l', 'm', 'n',
+        'o', 'p', 'J', 'r', 's', 't', 'u', 'f', 'q', 'R', 'y', 'S', 'C',
+        'c', 'Z', 'w', 'W', 'x','j', 'h');
 
     /**
      * LAT letters for wap
      *
      * @var array
      */
-    protected static $_letters_ka_wap = array('a', 'b', 'g', 'd', 'e', 'v', 'z', 'th', 'i', 'k', 'l', 'm', 'n', 'o', 'p', 'zh', 'r', 's', 't', 'u', 'f', 'q', 'gh', 'y', 'sh','ch', 'c', 'dz', 'ts', 'tc', 'kh', 'j', 'h');
+    protected static $_letters_ka_wap = array(
+        'a', 'b', 'g', 'd', 'e', 'v', 'z', 'th', 'i', 'k', 'l', 'm', 'n',
+        'o', 'p', 'zh', 'r', 's', 't', 'u', 'f', 'q', 'gh', 'y', 'sh','ch',
+        'c', 'dz', 'ts', 'tc', 'kh', 'j', 'h');
 
 	/**
      * Returns a new translated string of a given text.
