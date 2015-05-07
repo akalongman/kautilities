@@ -14,7 +14,7 @@ Install this package through [Composer](https://getcomposer.org/). Edit your pro
 **Or** run a command in your command line:
 
 ```
-composer require stichoza/skype-status-php
+composer require longman/kautilities
 ```
 
 ## Usage
