@@ -6,7 +6,7 @@
 [![Latest Stable Version](https://img.shields.io/packagist/v/Longman/Kautilities.svg)](https://packagist.org/packages/longman/kautilities)
 [![Total Downloads](https://img.shields.io/packagist/dt/Longman/Kautilities.svg)](https://packagist.org/packages/longman/kautilities)
 [![Downloads Month](https://img.shields.io/packagist/dm/Longman/Kautilities.svg)](https://packagist.org/packages/longman/kautilities)
-[![License](https://img.shields.io/packagist/l/Longman/Kautilities.svg)](https://packagist.org/packages/stichoza/longman/kautilities)
+[![License](https://img.shields.io/packagist/l/Longman/Kautilities.svg)](https://packagist.org/packages/longman/kautilities)
 
 
 PHP class for convert KA letters to LAT and back
