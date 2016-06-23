@@ -50,20 +50,32 @@ abstract class Converter
         'o', 'p', 'zh', 'r', 's', 't', 'u', 'f', 'q', 'gh', 'y', 'sh','ch',
         'c', 'dz', 'ts', 'tc', 'kh', 'j', 'h');
 
-	/**
+    /**
+     * Latinization of KA letters
+     *
+     * @var array
+     */
+    protected static $_letters_ka_latin = array(
+        'a', 'b', 'g', 'd', 'e', 'v', 'z', 't', 'i', 'k', 'l', 'm', 'n',
+        'o', 'p', 'zh', 'r', 's', 't', 'u', 'p', 'k', 'gh', 'q', 'sh', 'ch',
+        'ts', 'dz', 'ts', 'ch', 'kh', 'j', 'h');
+
+    /**
      * Returns a new translated string of a given text.
-	 *
-	 * @param String $text
+     *
+     * @param String $text
+     * @param bool $latinize
      * @throws \InvalidArgumentException
-	 * @return String
-	 */
-    public static function kaToLat($text)
+     * @return String
+     */
+    public static function kaToLat($text, $latinize = false)
     {
         if (!is_scalar($text)) {
             throw new \InvalidArgumentException('text must be scalar!');
         }
 
-        $text = str_replace(self::$_letters_ka, self::$_letters_lat, $text);
+        $text = str_replace(self::$_letters_ka,
+            $latinize ? self::$_letters_ka_latin : self::$_letters_lat, $text);
         return $text;
     }
 
